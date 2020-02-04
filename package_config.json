@@ -1,1 +1,49 @@
-{"permitted_resource_relationships": [{"resource2resourceid": "1ead035a-379a-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "f6235ff0-f992-11e9-b345-06f597a7d5ce", "resourceclassto_id": "ccbd1536-ac5e-11e6-84a5-026d961c88e6"}, {"resource2resourceid": "1ead035c-379a-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "f6235ff0-f992-11e9-b345-06f597a7d5ce", "resourceclassto_id": "f6235ff0-f992-11e9-b345-06f597a7d5ce"}, {"resource2resourceid": "ce9840d6-379a-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "35b99cb6-379a-11ea-9989-06f597a7d5ce", "resourceclassto_id": "ccbd1536-ac5e-11e6-84a5-026d961c88e6"}, {"resource2resourceid": "ce9840d8-379a-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "35b99cb6-379a-11ea-9989-06f597a7d5ce", "resourceclassto_id": "f6235ff0-f992-11e9-b345-06f597a7d5ce"}, {"resource2resourceid": "ce9840d9-379a-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "35b99cb6-379a-11ea-9989-06f597a7d5ce", "resourceclassto_id": "35b99cb6-379a-11ea-9989-06f597a7d5ce"}, {"resource2resourceid": "fe7dd20a-41ce-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "81212938-f98a-11e9-b345-06f597a7d5ce", "resourceclassto_id": "ccbd1536-ac5e-11e6-84a5-026d961c88e6"}, {"resource2resourceid": "fe7dd20b-41ce-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "81212938-f98a-11e9-b345-06f597a7d5ce", "resourceclassto_id": "81212938-f98a-11e9-b345-06f597a7d5ce"}, {"resource2resourceid": "fe7dd20c-41ce-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "81212938-f98a-11e9-b345-06f597a7d5ce", "resourceclassto_id": "35b99cb6-379a-11ea-9989-06f597a7d5ce"}, {"resource2resourceid": "fe7dd20d-41ce-11ea-9989-06f597a7d5ce", "resourceclassfrom_id": "81212938-f98a-11e9-b345-06f597a7d5ce", "resourceclassto_id": "f6235ff0-f992-11e9-b345-06f597a7d5ce"}]}
+{
+   "permitted_resource_relationships" : [
+      {
+         "resourceclassto_id" : "ccbd1536-ac5e-11e6-84a5-026d961c88e6",
+         "resourceclassfrom_id" : "f6235ff0-f992-11e9-b345-06f597a7d5ce",
+         "resource2resourceid" : "1ead035a-379a-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassfrom_id" : "f6235ff0-f992-11e9-b345-06f597a7d5ce",
+         "resourceclassto_id" : "f6235ff0-f992-11e9-b345-06f597a7d5ce",
+         "resource2resourceid" : "1ead035c-379a-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassfrom_id" : "35b99cb6-379a-11ea-9989-06f597a7d5ce",
+         "resourceclassto_id" : "ccbd1536-ac5e-11e6-84a5-026d961c88e6",
+         "resource2resourceid" : "ce9840d6-379a-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resource2resourceid" : "ce9840d8-379a-11ea-9989-06f597a7d5ce",
+         "resourceclassto_id" : "f6235ff0-f992-11e9-b345-06f597a7d5ce",
+         "resourceclassfrom_id" : "35b99cb6-379a-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassto_id" : "35b99cb6-379a-11ea-9989-06f597a7d5ce",
+         "resourceclassfrom_id" : "35b99cb6-379a-11ea-9989-06f597a7d5ce",
+         "resource2resourceid" : "ce9840d9-379a-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassto_id" : "ccbd1536-ac5e-11e6-84a5-026d961c88e6",
+         "resourceclassfrom_id" : "81212938-f98a-11e9-b345-06f597a7d5ce",
+         "resource2resourceid" : "fe7dd20a-41ce-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassto_id" : "81212938-f98a-11e9-b345-06f597a7d5ce",
+         "resourceclassfrom_id" : "81212938-f98a-11e9-b345-06f597a7d5ce",
+         "resource2resourceid" : "fe7dd20b-41ce-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassto_id" : "35b99cb6-379a-11ea-9989-06f597a7d5ce",
+         "resourceclassfrom_id" : "81212938-f98a-11e9-b345-06f597a7d5ce",
+         "resource2resourceid" : "fe7dd20c-41ce-11ea-9989-06f597a7d5ce"
+      },
+      {
+         "resourceclassto_id" : "f6235ff0-f992-11e9-b345-06f597a7d5ce",
+         "resourceclassfrom_id" : "81212938-f98a-11e9-b345-06f597a7d5ce",
+         "resource2resourceid" : "fe7dd20d-41ce-11ea-9989-06f597a7d5ce"
+      }
+   ]
+}
