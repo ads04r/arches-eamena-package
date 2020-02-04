@@ -1,9 +1,9 @@
 {
    "permitted_resource_relationships" : [],
    "business_data_load_order": [
-       "E27_Heritage_Resource_2020-02-04_05-02-16.csv",
-       "E14_Detailed_Condition_Assessment_2020-02-04_05-01-59.csv",
        "Actor_Resource_Model_2020-02-04_05-01-34.csv",
-       "Information_Resource_Model_2020-02-04_05-02-28.csv"
+       "Information_Resource_Model_2020-02-04_05-02-28.csv",
+       "E27_Heritage_Resource_2020-02-04_05-02-16.csv",
+       "E14_Detailed_Condition_Assessment_2020-02-04_05-01-59.csv"
    ]
 }
