@@ -1,0 +1,9 @@
+{
+	"name": "Eamena Card",
+	"description": "",
+	"component": "views/components/cards/eamena-card",
+	"componentname": "eamena-card",
+	"defaultconfig": {
+		"icon": "star-15"
+	}
+}
