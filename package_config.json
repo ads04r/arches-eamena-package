@@ -1,10 +1,10 @@
 {
    "permitted_resource_relationships" : [],
    "business_data_load_order": [
-      "Actor_Resource_Model_2020-03-12_10-40-28.json",
-      "E14_Detailed_Condition_Assessment_2020-03-12_10-40-24.json",
-      "E27_Heritage_Resource_2020-03-12_10-40-26.json",
-      "E27_Heritage_Resource_-_TESTING_2020-03-12_10-40-30.json",
-      "E73_Information_Resource_2020-03-12_10-40-27.json"
+      "Actor Resource Model.json",
+      "E14 Detailed Condition Assessment.json",
+      "E27 Heritage Resource.json",
+      "E27 Heritage Resource - TESTING.json",
+      "E73 Information Resource.json"
    ]
 }
