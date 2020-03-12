@@ -5,7 +5,7 @@ define([
     return ko.components.register('eamena-card', {
         viewModel: CardComponentViewModel,
         template: {
-            require: 'text!templates/views/components/cards/eamena-card.htm'
+            require: 'text!templates/views/components/card_components/eamena-card.htm'
         }
     });
 });
