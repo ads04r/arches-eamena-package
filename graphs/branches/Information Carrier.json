@@ -1,0 +1,158 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "f503ec86-524f-11ea-a3f7-02e7594ce0a0",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Information Carrier",
+                    "nodegroup_id": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": 15,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "edgeid": "f503ec89-524f-11ea-a3f7-02e7594ce0a0",
+                    "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "f503ec87-524f-11ea-a3f7-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f503ec87-524f-11ea-a3f7-02e7594ce0a0",
+                    "edgeid": "f503ec8a-524f-11ea-a3f7-02e7594ce0a0",
+                    "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in",
+                    "rangenode_id": "f503ec88-524f-11ea-a3f7-02e7594ce0a0"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+            "iconclass": "fa fa-file-image-o",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "Information Carrier",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "39c5e393-3d70-41f8-ad49-e426a9c608f4"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Information Carrier Format Type",
+                    "nodegroup_id": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "nodeid": "f503ec87-524f-11ea-a3f7-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Information Carrier Format Authority Document",
+                    "nodegroup_id": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "nodeid": "f503ec88-524f-11ea-a3f7-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Information Carrier",
+                    "nodegroup_id": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "nodeid": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
+                    "parentproperty": "",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "f503ec83-524f-11ea-a3f7-02e7594ce0a0",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Information Carrier",
+                "nodegroup_id": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                "nodeid": "f503ec84-524f-11ea-a3f7-02e7594ce0a0",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Linux",
+        "os version": "4.15.0-1065-aws"
+    }
+}
