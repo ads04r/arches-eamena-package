@@ -5,7 +5,7 @@
     <div class="form-group">
       <div class="increment-function">
           <div>
-            <label class="control-label widget-input-label"><span data-bind="text: $root.translations.cardName"></span></label>
+            <label class="control-label widget-input-label"> {% trans "Card Name" %}</label>
               <div class="widget-input" style="display:inline-block;"
               data-bind="select2Query: {
                   select2Config: {
@@ -15,12 +15,12 @@
                       value: selected_nodegroup,
                       allowClear: false,
                       multiple: false,
-                      placeholder: 'Select Card'}}">
+                      placeholder: 'Select Node'}}">
               </div>
           </div>
           <!--ko if: rerender() === true -->
           <div class="widget-input">
-            <label class="control-label widget-input-label">Node to update</label>
+            <label class="control-label widget-input-label"> {% trans "Node to update" %}</label>
               <div style="display:inline-block;"
               data-bind="select2Query: {
                   select2Config: {
@@ -35,16 +35,16 @@
           </div>
           <!--/ko-->
           
-          <label class="control-label widget-input-label"><span data-bind="text: $root.translations.prefix"></span></label>
+          <label class="control-label widget-input-label">Prefix</label>
           <input class="form-control widget-input" data-bind="textInput: prefix" />
 
-          <label class="control-label widget-input-label"><span data-bind="text: $root.translations.suffix"></span></label>
+          <label class="control-label widget-input-label">Suffix</label>
           <input class="form-control widget-input" data-bind="textInput: suffix" />
 
-          <label class="control-label widget-input-label">Start value</label>
+          <label class="control-label widget-input-label">Start Value</label>
           <input class="form-control widget-input" type="number" data-bind="textInput: starting_value" />
 
-          <label class="control-label widget-input-label">Last value</label>
+          <label class="control-label widget-input-label">Last Value</label>
           <input disabled class="form-control widget-input" type="number" data-bind="textInput: last_value" />
 
       </div>
