@@ -3275,7 +3275,7 @@
                 },
                 {
                     "config": {
-                        "last_value": 0,
+                        "last_value": "121",
                         "prefix": "CONDITION-",
                         "selected_nodegroup": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
                         "starting_value": "0000120",
@@ -5869,7 +5869,7 @@
                 "notes": null,
                 "publicationid": "8c14d152-6497-11ed-9618-08002727641f",
                 "published_time": "2022-11-14T21:42:37.136",
-                "user_id": 1
+                "user_id": 4
             },
             "relatable_resource_model_ids": [
                 "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
@@ -5904,9 +5904,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 14.7 (Ubuntu 14.7-1.pgdg20.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg20.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
         "os": "Linux",
-        "os version": "5.15.0-1037-aws"
+        "os version": "5.15.0-1068-aws"
     }
 }
