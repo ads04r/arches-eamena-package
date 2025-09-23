@@ -1,5 +1,6 @@
 import uuid
 from django.core.exceptions import ValidationError
+from django.conf import settings
 from arches.app.functions.base import BaseFunction
 from arches.app.models import models
 from arches.app.models.tile import Tile
@@ -21,7 +22,8 @@ details = {
 
 class IncrementorFunction(BaseFunction):
 
-    def post_save(self, tile, request):
+    def post_save(self, tile, request, context=None):
+
         tile_already_exists = models.TileModel.objects.filter(resourceinstance_id=tile.resourceinstance_id).filter(nodegroup_id=self.config["selected_nodegroup"]).exists()
         if not tile_already_exists: 
             try:
@@ -29,11 +31,16 @@ class IncrementorFunction(BaseFunction):
                     new_number = str(int(self.config['starting_value']) + int(self.config['last_value']) + 1)
                 else:
                     new_number = str(int(self.config['last_value']) + 1)
-                    
+
                 new_value =self.config['prefix'] + ((7 - len(new_number)) * '0') + new_number + self.config['suffix'] #EAMENA numbers are 7 digits long
                 fn = models.FunctionXGraph.objects.get(Q(function_id="2cc07b0a-adbd-4721-86ce-dad1699caa86"), Q(graph_id=tile.resourceinstance.graph_id))
                 fn.config['last_value'] = new_number
                 fn.save()
+                value_fragment = {'value': new_value, 'direction': 'ltr'}
+                new_value = {}
+                for lang in settings.LANGUAGES:
+                    lang_code = lang[0]
+                    new_value[lang_code] = value_fragment
                 nodegroup_id = self.config["selected_nodegroup"]
                 target_node = self.config['target_node']
                 nodegroup = models.NodeGroup.objects.get(pk = nodegroup_id)

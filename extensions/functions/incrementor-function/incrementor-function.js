@@ -1,11 +1,13 @@
-define(['knockout',
-        'viewmodels/function',
+define(['jquery', 'underscore', 'knockout', 'knockout-mapping', 'arches',
+        'viewmodels/function', 'bindings/chosen',
+        'templates/views/components/functions/incrementor-function.htm',
         'bindings/select2-query'],
-function (ko, FunctionViewModel, select2Query) {
+function ($, _, ko, koMapping, arches, FunctionViewModel, chosen, incrementorFunctionTemplate, select2Query) {
+
     return ko.components.register('views/components/functions/incrementor-function', {
         viewModel: function(params) {
             FunctionViewModel.apply(this, arguments);
-            console.log(select2Query)
+
             var self = this;
             var nodegroups = {};
             this.rerender = ko.observable(true);
@@ -47,8 +49,6 @@ function (ko, FunctionViewModel, select2Query) {
             this.selected_nodegroup.valueHasMutated(); // Forces the node value to load into the node options when the template is rendered
             
         },
-        template: {
-            require: 'text!templates/views/components/functions/incrementor-function.htm'
-        }
+        template: incrementorFunctionTemplate
     });
 })
