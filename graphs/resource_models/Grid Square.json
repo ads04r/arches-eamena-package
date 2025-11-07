@@ -329,7 +329,8 @@
                     "nodeid": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "grid_square",
@@ -349,7 +350,8 @@
                     "nodeid": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "grid_id",
@@ -369,7 +371,8 @@
                     "nodeid": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
@@ -377,8 +380,7 @@
                 "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
                 "notes": null,
                 "publicationid": "9b8a53dc-6497-11ed-9618-08002727641f",
-                "published_time": "2022-11-14T21:43:03.072",
-                "user_id": 1
+                "published_time": "2022-11-14T21:43:03.072"
             },
             "relatable_resource_model_ids": [
                 "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
@@ -402,7 +404,8 @@
                 "nodegroup_id": null,
                 "nodeid": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
             "subtitle": {
@@ -413,9 +416,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 14.7 (Ubuntu 14.7-1.pgdg20.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "db": "PostgreSQL 17.6 (Ubuntu 17.6-1.pgdg24.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
         "os": "Linux",
-        "os version": "5.15.0-1037-aws"
+        "os version": "6.14.0-1012-aws"
     }
 }
